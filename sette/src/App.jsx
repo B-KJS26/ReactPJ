@@ -1,20 +1,37 @@
 import './App.css';
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
-import Footer from './Footer';
-import Header2 from './Header2';
-import Gongji from './Gongji';
-import List from './List';
-function App() {
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { VscHome } from 'react-icons/vsc';
+import { GrDocumentText } from 'react-icons/gr';
+import { HiOutlinePencilAlt } from 'react-icons/hi';
+import { VscAccount } from 'react-icons/vsc';
+import Loging from './Login/Loginscreen';
+import Maining from './Mainpage/Mainpage';
+import Solving from './Solve/Solve';
+export default function App() {
   return (
-    <div>
-      <Header2 />
-      <Gongji />
-      <List />
-      <Footer/>
+    <div className='container'>
+      <Router>
+        <main>
+          <Route exact path="/" element={Loging} />
+          <Route path="/main" component={Maining}/>
+          <Route path="/solve" component={Solving}/>
+        </main>
+        <footer>
+          <Link to="/">
+            <VscAccount className='user' size='45' />
+          </Link>
+          <Link to="/main">
+            <VscHome className='homeicon' size='55' />
+          </Link>
+          <Link to="/solve">
+            <GrDocumentText className='problem' size='45' />
+          </Link>
+          <Link to="/resolve">
+            <HiOutlinePencilAlt className='odap' size='48' />
+          </Link>
+        </footer>
+      </Router>
     </div>
-  );
+  )
 }
-
-export default App;
