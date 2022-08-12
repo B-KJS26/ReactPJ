@@ -1,0 +1,16 @@
+.Gongjied {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 4%;
+    height: 4%;
+    color: rgba(0, 169, 165, 1);
+}
+.Gtext {
+    position: absolute;
+    top: 4.3%;
+    left: 8.2%;
+    color: rgba(0, 169, 165, 1);
+    font-size: 2em;
+    font-weight: bold;
+}

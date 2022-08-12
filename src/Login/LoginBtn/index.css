@@ -1,0 +1,24 @@
+.logging {
+  position: absolute;
+  width: 621px;
+  height: 135px;
+  color: #fff;
+  background: #17325c;
+  font-size: 70px;
+  font-weight: bold;
+  border: none;
+  border-radius: 102px;
+  box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
+  transition: 0.3s;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.logging:focus {
+  outline: 0;
+}
+.logging:hover {
+  background-color: rgba(0, 79, 255, 0.9);
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 79, 255, 0.6);
+}

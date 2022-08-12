@@ -1,0 +1,32 @@
+.container{
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    left: 0;
+    border: 3px solid gray;
+    border-radius: 20px 20px 0px 0px / 20px 20px 0px 0px;
+}
+.homeicon {
+    position: absolute;
+    left: 16%;
+    top: 20%; 
+}
+
+.problem {
+    position: absolute;
+    left: 37%;
+    top: 25%; 
+}
+
+.odap {
+    position: absolute;
+    left: 58%;
+    top: 25%; 
+}
+
+.user {
+    position: absolute;
+    left: 78%;
+    top: 25%;
+}

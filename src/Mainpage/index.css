@@ -1,0 +1,172 @@
+.AncM {
+  position: fixed;
+  width: 94%;
+  height: 10%;
+  top: 16%;
+  left: 3%;
+}
+.AncSp{
+  position: fixed;
+  left: 3.5%;
+  top: 12.4%;
+  color: rgba(0, 169, 165, 1);
+}
+.AncM1 {
+  font-family: 'Inter';
+  margin-top: -2%;
+  margin-left: 2%;
+  color: rgba(0, 169, 165, 1);
+}
+
+.AncI {
+  margin-left: 1%;
+}
+@import url('https://rsms.me/inter/inter.css');
+.AncM2 {
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-left: 1.6%;
+  margin-top: -1.2%;
+}
+.AncM3 {
+  margin-left: 1.5%;
+  margin-top: -0.8%;
+  color: rgba(135, 135, 135, 1);
+}
+.NewWork {
+  position: fixed;
+  top: 33%;
+  left: 3%;
+  float: left;
+  width: 45.5%;
+  height: 35%;
+}
+
+.Chart {
+  position: fixed;
+  top: 33%;
+  right: 3%;
+  float: right;
+  width: 45.5%;
+  height: 35%;
+}
+
+.SolvedP {
+  position: fixed;
+  left: 3%;
+  width: 94%;
+  top: 74%;
+  height: 80px;
+  clear: left;
+}
+
+.AncM,
+.Chart,
+.NewWork,
+.SolvedP {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.scripts {
+  margin-top: 12%;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.newWorkScripts {
+  padding-left: 5px;
+}
+
+.secondpart {
+  margin-left: 30%;
+  color: #6d6d6d;
+}
+
+.SolvedPScripts {
+  position: fixed;
+  left: 3%;
+  top: 67%;
+  color: #6d6d6d;
+  clear: left;
+}
+
+.Solved1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NewWork1{
+  margin-left: 4%;
+  margin-top: 3.5%;
+  width: 92%;
+  height: 33%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.NewWork2 {
+  margin: 4%;
+  width: 92%;
+  height: 33%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sibalj{
+  margin-left: 20%;
+  margin-top: 0%;
+  height: 90%;
+}
+
+.problemse {
+  margin-top: -0.5%;
+  width: 100px;
+}
+.proh3 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 17px;  
+}
+.num4 {
+  font-family: 'Inter';
+  margin-left: -10%;
+  font-weight: 600px;
+
+}
+.leftp {
+  margin-top: -10%;
+}
+.realp {
+  position: fixed;
+  left: 25%;
+  bottom: 14.4%;
+}
+
+.answerp {
+  margin-top: -0.5%;
+  width: 100px;
+}
+
+.answer4 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.num5 {
+  font-family: 'Inter';
+  font-weight: 600px;
+  white-space: nowrap;
+  margin-left: -2%;
+}
+
+.rightp {
+  margin-top: -10%;
+}
+
+.sp{
+  position: fixed;
+  right: 26.5%;
+  bottom: 14.4%;
+}
