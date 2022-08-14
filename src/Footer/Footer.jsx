@@ -10,7 +10,7 @@ export default function Footer() {
         <div className='container'>
             <Link to="/"><VscHome className='homeicon' size='35'/></Link>
             <GrDocumentText className='problem' size='30'/>
-            <Link to="/solve"><HiOutlinePencilAlt className='odap' size='30'/></Link>
+            <Link to="/solve"><HiOutlinePencilAlt className='odap' size='31'/></Link>
             <Link to="/account"><VscAccount className='user' size='30'/></Link>
         </div>
     )
