@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import Headers from "../Header/Header";
 import { HiSpeakerphone } from "react-icons/hi";
 import { Link } from 'react-router-dom';
-export default function MainPage() {
+function MainPage() {
   return (
     <div>
       <Headers/>
@@ -58,3 +58,4 @@ export default function MainPage() {
     </div>
   );
 }
+export default MainPage;
